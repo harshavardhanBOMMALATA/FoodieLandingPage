@@ -27,7 +27,7 @@ foodie/
 - Navigation links that scroll to sections  
 
 ## 📌 How to Run Locally  
-git clone https://github.com/your-username/foodie.git  
+git clone https://github.com/harshavardhanBOMMALATA/foodie.git  
 Open index.html in your browser.
 
 ## 🌍 Deployment (GitHub Pages)  
