@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Landing Page</title>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+<h2>Foodie</h2>
+<nav>
+<a href="#">Home</a>
+<a href="#menu">Menu</a>
+<a href="#about">About</a>
+<a href="#book">Reservations</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Experience the Taste of Authentic Cuisine</h1>
+<p>Join us for delicious meals made from the freshest ingredients.</p>
+<div class="buttons">
+<button class="btn-primary">View Menu</button>
+<a href="#book"><button class="btn-secondary">Book a Table</button></a>
+</div>
+</div>
+</section>
+
+<section class="section" id="menu">
+<h2 class="title">Our Popular Dishes</h2>
+<div class="dishes">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1584270354949-1c8c3b4c0e8a" alt="Pasta">
+<h3>Seafood Pasta</h3>
+<p>$19</p>
+<div class="rating">★★★★★</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Burger">
+<h3>Gourmet Burger</h3>
+<p>$15</p>
+<div class="rating">★★★★☆</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Salad">
+<h3>Fresh Garden Salad</h3>
+<p>$12</p>
+<div class="rating">★★★★★</div>
+</div>
+</div>
+
+<div class="menu-btn-wrapper">
+<button class="menu-btn">Explore Full Menu</button>
+</div>
+</section>
+
+<section class="section about" id="about">
+<img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c" alt="Chef">
+<div>
+<h2>A Culinary Experience</h2>
+<p>Discover our passion for exceptional food and warm hospitality. Enjoy a dining experience like no other.</p>
+<button class="btn-primary" style="margin-top:15px;border-radius:6px;padding:10px 20px;">Learn More</button>
+</div>
+</section>
+
+<section class="section reviews">
+<h2 class="title">Customer Reviews</h2>
+<div class="carousel">
+<div class="slide active">
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Fantastic food and great atmosphere! We'll definitely be back!"</p>
+<b>- Emily R.</b>
+</div>
+<div class="slide">
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Amazing service and delicious dishes. Highly recommend!"</p>
+<b>- Michael S.</b>
+</div>
+<div class="slide">
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Best restaurant in town. Loved every bite!"</p>
+<b>- Sarah K.</b>
+</div>
+</div>
+<div class="dots">
+<span class="dot active" onclick="showSlide(0)"></span>
+<span class="dot" onclick="showSlide(1)"></span>
+<span class="dot" onclick="showSlide(2)"></span>
+</div>
+</section>
+
+<section class="section" id="book">
+<h2 class="title">Book Your Table</h2>
+<div class="reservation-form">
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<input type="date">
+<input type="time">
+<select>
+<option>Guests</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+<button class="reserve-btn">Reserve Now</button>
+</div>
+</section>
+
+<footer id="contact">
+<div>
+<h3>Foodie</h3>
+<p>125 Foodies Lane, Bengaluru</p>
+<p>📞 +91 9876543210</p>
+<p>✉ info@restaurant.com</p>
+</div>
+<div>
+<h3>Quick Links</h3>
+<a href="#">Home</a>
+<a href="#menu">Menu</a>
+<a href="#about">About</a>
+<a href="#book">Reservations</a>
+<a href="#">Contact</a>
+</div>
+<div class="socials">
+<h3>Follow Us</h3>
+<a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+<a href="#"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+<a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+</div>
+<div class="copyright">
+© 2024 Foodie. All rights reserved.
+</div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
